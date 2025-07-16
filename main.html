@@ -357,7 +357,7 @@ if (data.online) {
   // Функция проверки статуса
   async function checkServerStatus() {
     try {
-      const response = await fetch(`https://api.mcsrvstat.us/2/${SERVER_IP}:${SERVER_PORT}`);
+      const response = await fetch(`https://api.mcsrvstat.us/2/${oximiron.hopto.org}:${12492}`);
       const data = await response.json();
       
       if (data.online) {
