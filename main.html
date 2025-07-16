@@ -380,20 +380,7 @@ if (data.online) {
   checkServerStatus();
   setInterval(checkServerStatus, 30000);
 
-  // Остальной код (правила и т.д.)
-  const rulesBtn = document.getElementById('rulesBtn');
-  const hideRulesBtn = document.getElementById('hideRulesBtn');
-  const rulesSection = document.getElementById('rulesSection');
   
-  rulesBtn.addEventListener('click', function() {
-    rulesSection.style.display = 'block';
-    rulesBtn.style.display = 'none';
-  });
-  
-  hideRulesBtn.addEventListener('click', function() {
-    rulesSection.style.display = 'none';
-    rulesBtn.style.display = 'inline-block';
-  });
     </script>
 </body>
 </html>
